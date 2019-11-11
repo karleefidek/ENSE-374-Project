@@ -1,0 +1,224 @@
+footer {
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    font-size: default;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+section {
+    margin-top: 40px;
+    padding: 1em;
+    background-color: white;
+    color: black;
+}
+
+.questionpage {
+    background-image: url(question.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #55a909;
+}
+
+.question {
+    color: black;
+    font: arial;
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 12em;
+    padding-left: 2%;
+    text-align: center;
+}
+
+.home {
+    background-image: url(homepage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #55a909;
+}
+
+.startbtn {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    margin-top: 50px;
+}
+
+.btn{
+    border: 3px solid #be0e0e;
+    border-radius: .5rem;
+    background: none;
+    padding: 20px 20px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn{
+    color: white;
+}
+
+.location{
+    background-size: auto;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.btn::before,.banner::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #be0e0e;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.btn::before,.banner::before{
+    bottom: 0;
+    border-radius: 50% 50% 0 0;
+}
+
+.btn:hover::before{
+    height: 180%;
+}
+  
+.EtW-banner {
+    margin: 0 auto 1rem auto;
+    max-width: 30rem;
+    width: 100%;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto!important;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.banner {
+    position: relative;
+    top: 10em;
+    text-align: center!important;
+}
+
+h1  {
+    font-family: Montserrat,sans-serif;
+    color: #be0e0e;
+}
+
+.h1, h1 {
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+user agent stylesheet
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.dropdown{
+    position: relative;
+    text-align:center;
+    left: 45%;
+    z-index: 10;
+    display: inline-block;
+    font: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 10px; 
+}
+
+.dropdown-hover{
+    font: arial;
+    font-size: 15px;
+    display: inline-block;
+    padding: 20px 20px;
+    background-color:#323b40;
+    color: #ffffff;
+    border:0 solid #323b40;
+    cursor: pointer;
+}
+
+.dropdown-hover:hover{
+    background-color: #222222;
+}
+    
+.dropdown-menu{
+    font: arial;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    background-color: #ffffff;
+    color: #323b40;
+    box-shadow: 0 3px 2px rgba(0,0,0,0.3);
+}
+    
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-width: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+.dropdown-menu a:hover{
+    background-color:#f0f0f0;
+    color: #323b40;
+}
+
+.locations{
+    width: 1400px;
+    height: auto;
+} 
+
+#restart{
+    color: black;
+} 
+
+#back{
+    color: black;
+} 
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: green;
+    text-decoration: underline;
+}
