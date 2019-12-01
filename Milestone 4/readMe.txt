@@ -1,4 +1,4 @@
-This folder wiil be used to store the relevant documents for milestone 3
+This folder wiil be used to store the relevant documents for milestone 4
 this will include source code,
-functional requirements document,
+clean code review,
 diagrams.
