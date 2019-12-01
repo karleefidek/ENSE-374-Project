@@ -1,5 +1,5 @@
 <?php
-	$db = new mysqli("localhost", "kdf131", "Kf2366&", "kdf131");
+	$db = new mysqli("localhost", "username", "password", "database");
 	if ($db->connect_error) {
 		die ("Connection failed: " . $db->connect_error);
 	}
